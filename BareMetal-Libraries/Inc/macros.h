@@ -2,12 +2,26 @@
 #define MACROS_H
 #include <stdint.h>
 
+/*
+0x4001 2000 - 0x4001 23FF GPIO Port G
+0x4001 1C00 - 0x4001 1FFF GPIO Port F
+0x4001 1800 - 0x4001 1BFF GPIO Port E
+0x4001 1400 - 0x4001 17FF GPIO Port D
+0x4001 1000 - 0x4001 13FF GPIO Port C
+0x4001 0C00 - 0x4001 0FFF GPIO Port B
+0x4001 0800 - 0x4001 0BFF GPIO Port A
+*/
+
 //Base Address Registers GPIOs
 #define GPIOA_BASE 	0x40010800U
 #define GPIOB_BASE 	0x40010C00U
 #define GPIOC_BASE 	0x40011000U
+#define GPIOD_BASE 	0x40011400U
+#define GPIOE_BASE 	0x40011800U
+#define GPIOF_BASE 	0x40011C00U
+#define GPIOG_BASE 	0x40012000U
 
-//Base Address Registers RCC
+//Base Address Register RCC
 #define RCC_BASE 	0x40021000U
 
 //Base Address Registers TIMx
