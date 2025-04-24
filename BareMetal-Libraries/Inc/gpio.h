@@ -1,5 +1,5 @@
-#ifndef TIMMER_FUNCTIONS_H
-#define TIMMER_FUNCTIONS_H
+#ifndef GPIO_H
+#define GPIO_H
 
 #include <stdint.h>
 
